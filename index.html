@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiyas | AI & Data Science</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #080b16;
+      color: #f4f5ff;
+      line-height: 1.7;
+    }
+    nav {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #20243a;
+    }
+    nav a, .links a {
+      color: #c4c8e8;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+    .logo { color: #a78bfa; font-weight: bold; }
+    section { padding: 75px 8%; }
+    .hero {
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background: radial-gradient(ellipse at top right,
+        #29205a 0%, #080b16 55%);
+    }
+    .tag { color: #a78bfa; margin-bottom: 14px; }
+    h1 { font-size: clamp(38px, 7vw, 68px); line-height: 1.15; }
+    h1 span { color: #a78bfa; }
+    p { color: #b8bfd8; max-width: 650px; margin-top: 18px; }
+    .btn {
+      display: inline-block;
+      background: #8b5cf6;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 9px;
+      margin-top: 25px;
+    }
+    h2 { font-size: 30px; margin-bottom: 22px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #111629;
+      border: 1px solid #292e48;
+      padding: 24px;
+      border-radius: 14px;
+    }
+    .card h3 { color: #c4b5fd; }
+    .card p { font-size: 15px; }
+    footer {
+      padding: 25px 8%;
+      border-top: 1px solid #20243a;
+      color: #9ca3bd;
+    }
+    @media (max-width: 550px) {
+      nav { padding: 18px 5%; }
+      nav a { margin-left: 8px; font-size: 13px; }
+      section { padding: 55px 6%; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">SHIYAS.DEV</div>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="tag">AI & DATA SCIENCE STUDENT</div>
+    <h1>Building ideas<br>into <span>digital solutions.</span></h1>
+    <p>
+      Hi, I'm Shiyas. I enjoy Python programming,
+      exploring data, and learning how AI can solve
+      real-world problems.
+    </p>
+    <a class="btn" href="#projects">Explore My Projects ↗</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm an Artificial Intelligence and Data Science student
+      developing my skills in programming, data analysis,
+      and web development. I'm always learning and building
+      projects to turn ideas into practical solutions.
+    </p>
+  </section>
+
+  <section id="skills">
+  <h2>My Skills</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Programming</h3>
+      <p>Python, C</p>
+    </article>
+    <article class="card">
+      <h3>Data Science</h3>
+      <p>Data Analysis, Data Visualization</p>
+    </article>
+    <article class="card">
+      <h3>Web Development</h3>
+      <p>HTML, CSS</p>
+    </article>
+  </div>
+</section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Python Automation</h3>
+        <p>A project to automate a repetitive task.
+          Add your real project details here.</p>
+      </article>
+      <article class="card">
+        <h3>Student Marks Analyzer</h3>
+        <p>
+          A Python project that analyzes student marks,
+          calculates total and average scores, identifies
+          the highest and lowest marks, and assigns grades.
+        </p>
+        <a
+    href="https://github.com/shiyas77/students-marks-analyser"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn"
+      >
+        View Source Code ↗
+        </a>
+       </article>
+      <article class="card">
+        <h3>AI Mini Project</h3>
+        <p>Build a small AI application and explain
+          how it works and what you learned.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <p>Have a project idea or want to collaborate? Get in touch.</p>
+    <a class="btn" href="mailto:shiyasp231@gmail.com">
+      Email Me ↗
+    </a>
+    <p>Replace the email address with your own contact email.</p>
+  </section>
+
+  <footer>© 2026 Shiyas · Built with HTML & CSS</footer>
+</body>
+</html>
